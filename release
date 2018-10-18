@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#
+# Deploy to S3
+
+bucket="penson.io"
+
+aws s3 cp ./ s3://$bucket --recursive --profile personal
