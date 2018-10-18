@@ -1,0 +1,17 @@
+.container {
+    max-width: 600px;
+}
+
+h1 {
+    margin-top: 350px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.col {
+    text-align: center;
+}
+
+img {
+    width: 65px;
+}
