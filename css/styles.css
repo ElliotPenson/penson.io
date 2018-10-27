@@ -1,17 +1,39 @@
-.container {
-    max-width: 600px;
+html {
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    height: 100%;
+    margin: 0;
 }
 
 h1 {
-    margin-top: 350px;
-    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 4em;
+    margin: 0 0 10px 0;
+}
+
+.main {
+    display: flex;
+    height: 75%;
+    align-items: center;
+    justify-content: center;
+}
+
+.centered {
+    flex: none;
     text-align: center;
 }
 
-.col {
-    text-align: center;
+.container {
+    display: flex;
+}
+
+.cell {
+    margin: 0 25px;
 }
 
 img {
-    width: 65px;
+    width: 84px;
 }
