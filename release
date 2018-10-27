@@ -4,4 +4,4 @@
 
 bucket="penson.io"
 
-aws s3 cp ./ s3://$bucket --recursive --profile personal
+aws s3 cp ./ s3://$bucket --recursive --profile personal --exclude ".*"
